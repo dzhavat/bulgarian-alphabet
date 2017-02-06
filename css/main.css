@@ -75,6 +75,86 @@ ul {
   background-image: url("../images/zaek.jpg");
 }
 
+.letter[data-letter="И"] {
+  background-image: url("../images/iguana.jpg");
+}
+
+.letter[data-letter="К"] {
+  background-image: url("../images/koala.jpg");
+}
+
+.letter[data-letter="Л"] {
+  background-image: url("../images/lav.jpg");
+}
+
+.letter[data-letter="М"] {
+  background-image: url("../images/mechka.jpg");
+}
+
+.letter[data-letter="Н"] {
+  background-image: url("../images/nosorog.jpg");
+}
+
+.letter[data-letter="О"] {
+  background-image: url("../images/ohlyuv.jpg");
+}
+
+.letter[data-letter="П"] {
+  background-image: url("../images/patitsa.jpg");
+}
+
+.letter[data-letter="Р"] {
+  background-image: url("../images/rak.jpg");
+}
+
+.letter[data-letter="С"] {
+  background-image: url("../images/slon.jpg");
+}
+
+.letter[data-letter="Т"] {
+  background-image: url("../images/tigar.jpg");
+}
+
+.letter[data-letter="У"] {
+  background-image: url("../images/uho.jpg");
+}
+
+.letter[data-letter="Ф"] {
+  background-image: url("../images/flamingo.jpg");
+}
+
+.letter[data-letter="Х"] {
+  background-image: url("../images/hameleon.jpg");
+}
+
+.letter[data-letter="Ц"] {
+  background-image: url("../images/tsvete.jpg");
+}
+
+.letter[data-letter="Ч"] {
+  background-image: url("../images/chayka.jpg");
+}
+
+.letter[data-letter="Ш"] {
+  background-image: url("../images/shisharka.jpg");
+}
+
+.letter[data-letter="Щ"] {
+  background-image: url("../images/shtarkel.jpg");
+}
+
+.letter[data-letter="Ъ"] {
+  background-image: url("../images/agal.jpg");
+}
+
+.letter[data-letter="Ю"] {
+  background-image: url("../images/yutia.jpg");
+}
+
+.letter[data-letter="Я"] {
+  background-image: url("../images/yaguar.jpg");
+}
+
 @media (min-width: 960px) {
   body {
     width: 90%;
