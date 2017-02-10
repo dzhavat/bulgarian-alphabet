@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Learn the bulgarian alphabet",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -o"
+    "start": "http-server -o",
+    "build": "babel js/main.dev.js -o js/main.prod.js",
+    "watch-js": "babel js/main.dev.js -w -o js/main.prod.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "http-server": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0"
   }
 }

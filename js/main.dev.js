@@ -1,6 +1,6 @@
 // I guess is nice to have one track which contains all letters
 // this is english version
-const ALPHABET_TRACK = 'http://www.learning-english-online.net/wp-content/uploads/sites/20/2015/04/alphabet-complete.mp3';
+const ALPHABET_TRACK = '../audio/alphabet.mp3?v=1486765899166';
 
 const createAudioPlayer = (source) => {
   const audio = new Audio();
@@ -13,7 +13,7 @@ const createAudioPlayer = (source) => {
 const playTrackAtTime = player => duration => start => {
   player.currentTime = start;
   player.play();
-  setTimeout( () => player.pause(), duration)
+  setTimeout( () => player.pause(), duration);
 }
 
 //create a player

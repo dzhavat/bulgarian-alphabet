@@ -24,13 +24,13 @@ ul {
 }
 
 .letter {
-  width: 125px;
-  height: 125px;
+  width: 8rem;
+  height: 8rem;
   font-size: 2.5rem;
   color: white;
   text-align: center;
   border-radius: 4px;
-  line-height: 125px;
+  line-height: 8rem;
   margin: .5rem;
   display: inline-block;
   font-weight: 600;
@@ -153,6 +153,23 @@ ul {
 
 .letter[data-letter="Я"] {
   background-image: url("../images/yaguar.jpg");
+}
+
+.audio-icon {
+  top: 2px;
+  right: 2px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+}
+
+.audio-icon .path {
+  fill: white;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (min-width: 960px) {
