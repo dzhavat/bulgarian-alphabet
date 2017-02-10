@@ -1,6 +1,6 @@
 // I guess is nice to have one track which contains all letters
 // this is english version
-const ALPHABET_TRACK = '../audio/alphabet.mp3?v=1486765899166';
+const ALPHABET_TRACK = 'audio/alphabet.mp3?v=1486765899166';
 
 const createAudioPlayer = (source) => {
   const audio = new Audio();

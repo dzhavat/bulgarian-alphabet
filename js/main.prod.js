@@ -4,7 +4,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 // I guess is nice to have one track which contains all letters
 // this is english version
-var ALPHABET_TRACK = '../audio/A-YA.mp3?v=1486765899166';
+var ALPHABET_TRACK = 'audio/alphabet.mp3?v=1486765899166';
 
 var createAudioPlayer = function createAudioPlayer(source) {
   var audio = new Audio();
