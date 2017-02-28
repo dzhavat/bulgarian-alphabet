@@ -79,6 +79,10 @@ ul {
   background-image: url("../images/iguana.jpg");
 }
 
+.letter[data-letter="Й"] {
+  background-image: url("../images/peyka.jpg");
+}
+
 .letter[data-letter="К"] {
   background-image: url("../images/koala.jpg");
 }
@@ -145,6 +149,10 @@ ul {
 
 .letter[data-letter="Ъ"] {
   background-image: url("../images/agal.jpg");
+}
+
+.letter[data-letter="Ь"] {
+  background-image: url("../images/minyor.jpg");
 }
 
 .letter[data-letter="Ю"] {
