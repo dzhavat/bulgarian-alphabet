@@ -2,218 +2,226 @@
 <html lang="bg">
   <head>
     <meta charset="utf-8">
-      <title>Българската азбука за деца</title>
+      <title>Научи българската азбука</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Българската азбука за деца</h1>
+    <h1><span>Научи</span> <span><span>а</span><span>з</span><span>б</span><span>у</span><span>к</span><span>а</span><span>т</span><span>а</span></span></h1>
+    
+    <div class="controls">
+      <span>Чуй цялата азбука</span>
+      <button type="button" class="button button-basic js-button-play">Старт</button>
+      <button type="button" class="button button-basic js-button-pause">Пауза</button>
+      <button type="button" class="button button-basic js-button-stop">Стоп</button>
+    </div>
+
     <ul>
-      <li class="letter" data-letter="А">
+      <li class="letter js-letter" data-letter="А">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">А</span>
         <span class="letter__small hidden">а</span>
       </li>
-      <li class="letter" data-letter="Б">
+      <li class="letter js-letter" data-letter="Б">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Б</span>
         <span class="letter__small hidden">б</span>
       </li>
-      <li class="letter" data-letter="В">
+      <li class="letter js-letter" data-letter="В">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">В</span>
         <span class="letter__small hidden">в</span>
       </li>
-      <li class="letter" data-letter="Г">
+      <li class="letter js-letter" data-letter="Г">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Г</span>
         <span class="letter__small hidden">г</span>
       </li>
-      <li class="letter" data-letter="Д">
+      <li class="letter js-letter" data-letter="Д">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Д</span>
         <span class="letter__small hidden">д</span>
       </li>
-      <li class="letter" data-letter="Е">
+      <li class="letter js-letter" data-letter="Е">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Е</span>
         <span class="letter__small hidden">е</span>
       </li>
-      <li class="letter" data-letter="Ж">
+      <li class="letter js-letter" data-letter="Ж">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ж</span>
         <span class="letter__small hidden">ж</span>
       </li>
-      <li class="letter" data-letter="З">
+      <li class="letter js-letter" data-letter="З">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">З</span>
         <span class="letter__small hidden">з</span>
       </li>
-      <li class="letter" data-letter="И">
+      <li class="letter js-letter" data-letter="И">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">И</span>
         <span class="letter__small hidden">и</span>
       </li>
-      <li class="letter" data-letter="Й">
+      <li class="letter js-letter" data-letter="Й">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Й</span>
         <span class="letter__small hidden">й</span>
       </li>
-      <li class="letter" data-letter="К">
+      <li class="letter js-letter" data-letter="К">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">К</span>
         <span class="letter__small hidden">к</span>
       </li>
-      <li class="letter" data-letter="Л">
+      <li class="letter js-letter" data-letter="Л">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Л</span>
         <span class="letter__small hidden">л</span>
       </li>
-      <li class="letter" data-letter="М">
+      <li class="letter js-letter" data-letter="М">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">М</span>
         <span class="letter__small hidden">м</span>
       </li>
-      <li class="letter" data-letter="Н">
+      <li class="letter js-letter" data-letter="Н">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Н</span>
         <span class="letter__small hidden">н</span>
       </li>
-      <li class="letter" data-letter="О">
+      <li class="letter js-letter" data-letter="О">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">О</span>
         <span class="letter__small hidden">о</span>
       </li>
-      <li class="letter" data-letter="П">
+      <li class="letter js-letter" data-letter="П">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">П</span>
         <span class="letter__small hidden">п</span>
       </li>
-      <li class="letter" data-letter="Р">
+      <li class="letter js-letter" data-letter="Р">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Р</span>
         <span class="letter__small hidden">р</span>
       </li>
-      <li class="letter" data-letter="С">
+      <li class="letter js-letter" data-letter="С">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">С</span>
         <span class="letter__small hidden">с</span>
       </li>
-      <li class="letter" data-letter="Т">
+      <li class="letter js-letter" data-letter="Т">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Т</span>
         <span class="letter__small hidden">т</span>
       </li>
-      <li class="letter" data-letter="У">
+      <li class="letter js-letter" data-letter="У">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">У</span>
         <span class="letter__small hidden">у</span>
       </li>
-      <li class="letter" data-letter="Ф">
+      <li class="letter js-letter" data-letter="Ф">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ф</span>
         <span class="letter__small hidden">ф</span>
       </li>
-      <li class="letter" data-letter="Х">
+      <li class="letter js-letter" data-letter="Х">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Х</span>
         <span class="letter__small hidden">х</span>
       </li>
-      <li class="letter" data-letter="Ц">
+      <li class="letter js-letter" data-letter="Ц">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ц</span>
         <span class="letter__small hidden">ц</span>
       </li>
-      <li class="letter" data-letter="Ч">
+      <li class="letter js-letter" data-letter="Ч">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ч</span>
         <span class="letter__small hidden">ч</span>
       </li>
-      <li class="letter" data-letter="Ш">
+      <li class="letter js-letter" data-letter="Ш">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ш</span>
         <span class="letter__small hidden">ш</span>
       </li>
-      <li class="letter" data-letter="Щ">
+      <li class="letter js-letter" data-letter="Щ">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Щ</span>
         <span class="letter__small hidden">щ</span>
       </li>
-      <li class="letter" data-letter="Ъ">
+      <li class="letter js-letter" data-letter="Ъ">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ъ</span>
         <span class="letter__small hidden">ъ</span>
       </li>
-      <li class="letter" data-letter="Ь">
+      <li class="letter js-letter" data-letter="Ь">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ь</span>
         <span class="letter__small hidden">ь</span>
       </li>
-      <li class="letter" data-letter="Ю">
+      <li class="letter js-letter" data-letter="Ю">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
         <span class="letter__big">Ю</span>
         <span class="letter__small hidden">ю</span>
       </li>
-      <li class="letter" data-letter="Я">
+      <li class="letter js-letter" data-letter="Я">
         <svg class="audio-icon" viewBox="0 0 24 24">
           <path class="path" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" />
         </svg>
@@ -221,6 +229,11 @@
         <span class="letter__small hidden">я</span>
       </li>
     </ul>
+
+    <footer>
+      <a href="https://github.com/dzhavat/bulgarian-alphabet" target="_blank">Код на проекта в GitHub</a>
+    </footer>
+
     <script src="js/main.prod.js"></script>
   </body>
 </html>

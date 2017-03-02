@@ -7,14 +7,86 @@ html {
 }
 
 body {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   text-align: center;
+  margin: 1rem 0;
+}
+
+h1 > span {
+  display: block;
+}
+
+h1 > span:first-of-type {
+  font-size: 1rem;
+}
+
+h1 > span:last-of-type {
+  font-size: 3rem;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
+}
+
+h1 > span:last-of-type span {
+  text-shadow: 1px 1px rgba(0, 0, 0, .2), 2px 2px rgba(0, 0, 0, .15);
+}
+
+h1 > span:last-of-type span:nth-child(1) {
+  color: #88D1B4;
+}
+
+h1 > span:last-of-type span:nth-child(2) {
+  color: #F2D914;
+}
+
+h1 > span:last-of-type span:nth-child(3) {
+  color: #D36A6B;
+}
+
+h1 > span:last-of-type span:nth-child(4) {
+  color: #559B8F;
+}
+
+h1 > span:last-of-type span:nth-child(5) {
+  color: #E6873D;
+}
+
+h1 > span:last-of-type span:nth-child(6) {
+  color: #D36A6B;
+}
+
+h1 > span:last-of-type span:nth-child(7) {
+  color: #F2D914;
+}
+
+h1 > span:last-of-type span:nth-child(8) {
+  color: #88D1B4;
+}
+
+.controls {
+  position: relative;
+  text-align: center;
+}
+
+.controls span {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.button {
+  font-size: 1rem;
+}
+
+.button-basic {
+  border: 1px solid #ddd;
+  background-color: transparent;
+}
+
+.button:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
 }
 
 ul {
@@ -41,6 +113,23 @@ ul {
   text-shadow: 0 0 6px rgba(0, 0, 0, .8);
   border: 4px solid white;
   background-color: #2196f3;
+  transition: transform .2s ease-in-out;
+}
+
+.letter:hover {
+  transform: scale(1.05);
+}
+
+.letter:nth-child(3n+1):hover {
+  border-color: #88D1B4;
+}
+
+.letter:nth-child(3n+2):hover {
+  border-color: #F2D914;
+}
+
+.letter:nth-child(3n+3):hover {
+  border-color: #D36A6B;
 }
 
 .letter[data-letter="А"] {
@@ -180,8 +269,52 @@ ul {
   display: none;
 }
 
-@media (min-width: 960px) {
+footer {
+  border-top: 1px solid gray;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 25em) {
+  h1 > span:last-of-type {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 30em) {
+  .controls span {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .controls span::after {
+    content: ':';
+  }
+}
+
+@media (min-width: 60em) {
   body {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     width: 90%;
+  }
+
+  .controls {
+    position: absolute;
+    top: 1.375rem;
+    right: 0;
+    padding: .5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .controls span {
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  .controls span::after {
+    content: '';
   }
 }
