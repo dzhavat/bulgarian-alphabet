@@ -1,4 +1,4 @@
-# Българската азбука за деца ([Демо](https://www.dzhavatushev.eu/alphabet/))
+# Българската азбука за деца ([Демо](https://dzhavatushev.com/alphabet/))
 Весел начин да научиш българската азбука / Fun way to learn the bulgarian alphabet
 
 ## Как можеш да се включиш?
