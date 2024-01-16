@@ -1,4 +1,4 @@
-## Българската азбука за деца ([Демо](https://dzhavatushev.com/alphabet/))
+## Българската азбука за деца ([Демо](https://dzhavat.github.io/bulgarian-alphabet/))
 
 ## Как можеш да се включиш в проекта?
 
